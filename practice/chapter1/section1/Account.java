@@ -1,4 +1,4 @@
-package practice.chapter1;
+package practice.chapter1.section1;
 
 public class Account {
   String accountNo;
