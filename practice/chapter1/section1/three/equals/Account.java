@@ -1,8 +1,9 @@
-package practice.chapter1.section1;
+package practice.chapter1.section1.three.equals;
 
 public class Account {
   String accountNo;
 
+  /** クラスを作成したら必ずequalsはオーバーライドしておく */
   public boolean equals(Object o) {
     if (o == this)
       return true;

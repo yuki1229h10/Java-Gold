@@ -1,4 +1,5 @@
-package practice.chapter1.section2.four.Anonymous;
+package practice.chapter1.section2.four.anonymous;
+
 
 public class Main {
   public static void main(String[] args) {
