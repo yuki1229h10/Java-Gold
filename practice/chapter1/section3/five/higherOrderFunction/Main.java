@@ -19,7 +19,7 @@ import java.util.ArrayList;
 
 /** 高階関数の記法 */
 public class Main {
-  public static void main(String args[]) {
+  public static void main(String[] args) {
     List<Hero> heroes = new ArrayList<>();
 
     boolean anyoneKnockedOut = heroes.stream().anyMatch(h -> h.hp == 0);
