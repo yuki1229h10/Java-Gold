@@ -1,0 +1,22 @@
+package practice.chapter1.section5.three.EqualsBuilder;
+
+/** 従来の方法 */
+public class Bank {
+  String name;
+  String address;
+
+  public boolean equals(Object o) {
+    if (o == this)
+      return true;
+    if (o == null)
+      return false;
+    if (!(o instanceof Bank))
+      return false;
+    Bank r = (Bank) o;
+    if (!this.name.equals(r.name))
+      return false;
+    if (!this.address.equals(r.address))
+      return false;
+    return true;
+  }
+}
