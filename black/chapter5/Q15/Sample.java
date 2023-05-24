@@ -15,5 +15,7 @@ public class Sample {
     Files.copy(sample, outFile);
 
     Path dir = Paths.get("dir", "subdir");
+    Path dest = dir.resolve(Paths.get("data.txt"));
+    Files.move(sample, dest);
   }
 }
